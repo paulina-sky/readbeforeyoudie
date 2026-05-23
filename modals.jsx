@@ -561,14 +561,19 @@ const SAMPLE_IMPORT = JSON.stringify([
 ], null, 2);
 
 function ImportModal({ onClose }) {
-  const { bulkAdd } = useStore();
+  const { bulkAdd, setBooks } = useStore();
   const [text, setText] = useStateM('');
+  const [mode, setMode] = useStateM('replace');
   const [err, setErr] = useStateM('');
   const doImport = () => {
     try {
       const arr = JSON.parse(text);
       if (!Array.isArray(arr)) throw new Error('Must be a JSON array');
-      bulkAdd(arr);
+      if (mode === 'replace') {
+        setBooks(arr);
+      } else {
+        bulkAdd(arr);
+      }
       onClose();
     } catch(e) {
       setErr(e.message);
@@ -585,6 +590,16 @@ function ImportModal({ onClose }) {
           <CloseX onClick={onClose} />
         </div>
         <div className="hint" style={{marginBottom:12}}>Expected: JSON array of book objects. Click "Use template" to copy the schema.</div>
+        <div style={{display:'flex', gap:10, marginBottom: 14, alignItems:'center', flexWrap:'wrap'}}>
+          <span className="caps" style={{fontSize:10.5, letterSpacing:'0.22em', opacity:.55}}>Mode</span>
+          <div className="seg-toggle">
+            <button type="button" className={"seg-btn " + (mode==='replace'?'active':'')} onClick={() => setMode('replace')}>Replace</button>
+            <button type="button" className={"seg-btn " + (mode==='append'?'active':'')} onClick={() => setMode('append')}>Append</button>
+          </div>
+          <span className="hint" style={{flexBasis:'100%', fontSize:10}}>
+            {mode==='replace' ? 'Wipes current library, restores from file.' : 'Adds books from file to current library (may create duplicates).'}
+          </span>
+        </div>
         <div style={{display:'flex', gap:10, marginBottom: 14}}>
           <button className="btn tiny" onClick={() => setText(SAMPLE_IMPORT)}>Use template</button>
           <button className="btn tiny" onClick={() => setText('')}>Clear</button>
