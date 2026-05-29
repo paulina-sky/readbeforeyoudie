@@ -70,9 +70,58 @@ const Store = createContext(null);
 function useStore() { return useContext(Store); }
 
 function StoreProvider({ children }) {
-  const [books, setBooks] = useState(() => loadBooks());
+  const { user } = useAuth();
+  const [books, setBooks] = useState([]);
+  const [loaded, setLoaded] = useState(false);
   const [settings, setSettings] = useState(() => loadSettings());
-  useEffect(() => { saveBooks(books); }, [books]);
+  const saveTimer = useRef(null);
+  const cacheKey = user ? STORAGE_KEY + ':' + user.id : null;
+
+  // Load this user's library from the cloud (with instant localStorage cache).
+  useEffect(() => {
+    if (!user) { setBooks([]); setLoaded(false); return; }
+    let cancelled = false;
+    setLoaded(false);
+    // Instant paint from cache if present
+    try {
+      const c = localStorage.getItem(cacheKey);
+      if (c) setBooks(JSON.parse(c));
+    } catch (e) {}
+    (async () => {
+      try {
+        const { data, error } = await window.supabaseClient
+          .from('libraries').select('books').eq('user_id', user.id).maybeSingle();
+        if (cancelled) return;
+        if (error) { console.error('load library', error); setLoaded(true); return; }
+        if (!data) {
+          // First login for this account — seed the suggested starter shelf
+          const seed = (window.STARTER_LIBRARY || []).map(b => ({ ...b }));
+          await window.supabaseClient.from('libraries').insert({ user_id: user.id, books: seed });
+          if (cancelled) return;
+          setBooks(seed);
+          try { localStorage.setItem(cacheKey, JSON.stringify(seed)); } catch (e) {}
+        } else {
+          setBooks(data.books || []);
+          try { localStorage.setItem(cacheKey, JSON.stringify(data.books || [])); } catch (e) {}
+        }
+      } catch (e) { console.error(e); }
+      if (!cancelled) setLoaded(true);
+    })();
+    return () => { cancelled = true; };
+  }, [user, cacheKey]);
+
+  // Debounced save to cloud + cache whenever books change (after initial load)
+  useEffect(() => {
+    if (!user || !loaded) return;
+    try { localStorage.setItem(cacheKey, JSON.stringify(books)); } catch (e) {}
+    if (saveTimer.current) clearTimeout(saveTimer.current);
+    saveTimer.current = setTimeout(() => {
+      window.supabaseClient.from('libraries')
+        .upsert({ user_id: user.id, books, updated_at: new Date().toISOString() })
+        .then(({ error }) => { if (error) console.error('save library', error); });
+    }, 700);
+  }, [books, user, loaded, cacheKey]);
+
   useEffect(() => { saveSettings(settings); }, [settings]);
 
   const updateBook = useCallback((id, patch) => {
@@ -191,7 +240,7 @@ function StoreProvider({ children }) {
   }, []);
 
   const value = { books, setBooks, updateBook, addBook, removeBook, setNext, removeFromNext, reorderNext, markAsRead, unmarkAsRead, bulkAdd, resetSeed,
-                  settings, setSettings, NEXT_CAP };
+                  settings, setSettings, NEXT_CAP, loaded };
   return <Store.Provider value={value}>{children}</Store.Provider>;
 }
 

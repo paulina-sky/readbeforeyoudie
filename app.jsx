@@ -75,11 +75,26 @@ function Sidebar({ page, setPage, openAdd }) {
             ＋ Add Book
           </button>
 
-          {/* Future: account info goes here */}
+          <div className="sb-divider" />
+
+          {/* Account */}
+          <SidebarAccount />
         </div>
       </div>
     </aside>);
 
+}
+
+function SidebarAccount() {
+  const { user, signOut } = useAuth();
+  if (!user) return null;
+  const label = user.email || (user.user_metadata && user.user_metadata.name) || 'Signed in';
+  return (
+    <div className="sb-account">
+      <div className="sb-account-email" title={label}>{label}</div>
+      <button className="sb-signout" onClick={signOut}>Sign out</button>
+    </div>
+  );
 }
 
 function App() {
@@ -177,9 +192,13 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StoreProvider>
-    <ToastProvider>
-      <App />
-    </ToastProvider>
-  </StoreProvider>
+  <AuthProvider>
+    <AuthGate>
+      <StoreProvider>
+        <ToastProvider>
+          <App />
+        </ToastProvider>
+      </StoreProvider>
+    </AuthGate>
+  </AuthProvider>
 );
