@@ -84,14 +84,9 @@ function StoreProvider({ children }) {
     return id;
   }, []);
   const removeBook = useCallback((id) => {
-    let prev = null;
-    setBooks(bs => {
-      const found = bs.find(b => b.id === id);
-      if (found) prev = found;
-      return bs.filter(b => b.id !== id);
-    });
-    if (prev && window.__rbydShowToast) {
-      const snapshot = prev;
+    const snapshot = (window.__rbydLatestBooks || []).find(b => b.id === id);
+    setBooks(bs => bs.filter(b => b.id !== id));
+    if (snapshot && window.__rbydShowToast) {
       window.__rbydShowToast(
         React.createElement('span', null,
           'Deleted · ',
@@ -130,14 +125,9 @@ function StoreProvider({ children }) {
     }
   }, []);
   const removeFromNext = useCallback((id) => {
-    let prev = null;
-    setBooks(bs => bs.map(b => {
-      if (b.id !== id) return b;
-      prev = b;
-      return { ...b, toReadNext: false, nextOrder: 0 };
-    }));
-    if (prev && window.__rbydShowToast) {
-      const snapshot = prev;
+    const snapshot = (window.__rbydLatestBooks || []).find(b => b.id === id);
+    setBooks(bs => bs.map(b => b.id === id ? { ...b, toReadNext: false, nextOrder: 0 } : b));
+    if (snapshot && window.__rbydShowToast) {
       window.__rbydShowToast(
         React.createElement('span', null,
           'Removed from queue · ',
@@ -170,14 +160,9 @@ function StoreProvider({ children }) {
   // Send a Read book back to To Read. Keep dateRead in the data (history) but it
   // won't display while on To Read.
   const unmarkAsRead = useCallback((id) => {
-    let prev = null;
-    setBooks(bs => bs.map(b => {
-      if (b.id !== id) return b;
-      prev = b;
-      return { ...b, list: 'to-read' };
-    }));
-    if (prev && window.__rbydShowToast) {
-      const snapshot = prev;
+    const snapshot = (window.__rbydLatestBooks || []).find(b => b.id === id);
+    setBooks(bs => bs.map(b => b.id === id ? { ...b, list: 'to-read' } : b));
+    if (snapshot && window.__rbydShowToast) {
       window.__rbydShowToast(
         React.createElement('span', null,
           'Moved back to To Read · ',

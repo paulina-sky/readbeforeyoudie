@@ -49,7 +49,7 @@ function Sidebar({ page, setPage, openAdd }) {
         <div className="sb-content">
           {/* Logo */}
           <div className="sb-brand" onClick={() => setPage('home')}>
-            <img src="logo.png" alt="Read before you die" className="sb-logo" style={{ objectFit: "fill", width: "124px", height: "44px" }} />
+            <img src="logo.png" alt="Read before you die" className="sb-logo" />
           </div>
 
           <div className="sb-divider" />
@@ -100,8 +100,8 @@ function App() {
     location.hash = page;
   }, [page]);
 
-  useEffectA(() => { window.__rbydLatestBooks = books; }, [books]);
-  useEffectA(() => { window.__rbydShowToast = showToast; }, [showToast]);
+  useEffectA(() => {window.__rbydLatestBooks = books;}, [books]);
+  useEffectA(() => {window.__rbydShowToast = showToast;}, [showToast]);
 
   useEffectA(() => {
     const onHash = () => {
@@ -125,10 +125,10 @@ function App() {
     const customOnSaved = opts && typeof opts.onSaved === 'function' ? opts.onSaved : null;
     setPendingAddCb(() => (id) => {
       if (customOnSaved) customOnSaved(id);
-      const b = (window.__rbydLatestBooks || []).find(x => x.id === id);
+      const b = (window.__rbydLatestBooks || []).find((x) => x.id === id);
       const title = b ? b.title : 'New book';
       showToast(<><span>Added to To Read · </span><span className="toast-em">{title}</span></>, {
-        action: { label: 'Open', onClick: () => { location.hash = 'to-read'; } },
+        action: { label: 'Open', onClick: () => {location.hash = 'to-read';} }
       });
     });
     setShowAdd(true);
@@ -151,7 +151,7 @@ function App() {
         {page === 'to-read' && <ToReadPage openDetail={openDetail} openEdit={openEdit} openAdd={openAdd} openImport={() => setShowImport(true)} />}
         {page === 'read' && <ReadPage openDetail={openDetail} openEdit={openEdit} openAdd={openAdd} />}
         {page === 'authors' && <AuthorsPage openDetail={openDetail} />}
-        {page === 'lent'    && <LentPage openDetail={openDetail} openEdit={openEdit} />}
+        {page === 'lent' && <LentPage openDetail={openDetail} openEdit={openEdit} />}
       </main>
 
       {liveDetail && <BookDetail book={liveDetail} onClose={() => setDetailBook(null)} onEdit={() => openEdit(liveDetail)} />}

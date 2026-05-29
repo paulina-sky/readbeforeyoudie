@@ -214,13 +214,13 @@ main {
 
 .sb-brand {
   cursor: pointer;
-  display: flex;
-  align-items: center;
+  display: block;
   margin-bottom: 22px;
 }
 .sb-logo {
-  height: 44px;
-  width: auto;
+  width: 196px;
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
