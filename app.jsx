@@ -21,7 +21,8 @@ function Sidebar({ page, setPage, openAdd }) {
   ['home', 'Home'],
   ['to-read', 'To Read'],
   ['read', 'Read'],
-  ['authors', 'Authors']];
+  ['authors', 'Authors'],
+  ['lent', 'Lent']];
 
 
   return (
@@ -48,7 +49,7 @@ function Sidebar({ page, setPage, openAdd }) {
         <div className="sb-content">
           {/* Logo */}
           <div className="sb-brand" onClick={() => setPage('home')}>
-            <img src="logo.png" alt="Read before you die" className="sb-logo" />
+            <img src="logo.png" alt="Read before you die" className="sb-logo" style={{ objectFit: "fill", width: "124px", height: "44px" }} />
           </div>
 
           <div className="sb-divider" />
@@ -82,9 +83,11 @@ function Sidebar({ page, setPage, openAdd }) {
 }
 
 function App() {
+  const { showToast } = useToast();
+  const { addBook, removeBook, books, updateBook, setBooks } = useStore();
   const [page, setPage] = useStateA(() => {
     const h = location.hash.replace('#', '');
-    return ['home', 'to-read', 'read', 'authors'].includes(h) ? h : 'home';
+    return ['home', 'to-read', 'read', 'authors', 'lent'].includes(h) ? h : 'home';
   });
   const [detailBook, setDetailBook] = useStateA(null);
   const [editBook, setEditBook] = useStateA(null);
@@ -97,10 +100,13 @@ function App() {
     location.hash = page;
   }, [page]);
 
+  useEffectA(() => { window.__rbydLatestBooks = books; }, [books]);
+  useEffectA(() => { window.__rbydShowToast = showToast; }, [showToast]);
+
   useEffectA(() => {
     const onHash = () => {
       const h = location.hash.replace('#', '');
-      if (['home', 'to-read', 'read', 'authors'].includes(h)) setPage(h);
+      if (['home', 'to-read', 'read', 'authors', 'lent'].includes(h)) setPage(h);
     };
     window.addEventListener('hashchange', onHash);
     return () => window.removeEventListener('hashchange', onHash);
@@ -115,12 +121,20 @@ function App() {
   const openDetail = (b) => setDetailBook(b);
   const openEdit = (b) => {setDetailBook(null);setEditBook(b);};
   const openAdd = (opts = {}) => {
-    setPendingAddCb(opts && typeof opts.onSaved === 'function' ? () => opts.onSaved : null);
+    // Wrap the optional onSaved to also fire a toast
+    const customOnSaved = opts && typeof opts.onSaved === 'function' ? opts.onSaved : null;
+    setPendingAddCb(() => (id) => {
+      if (customOnSaved) customOnSaved(id);
+      const b = (window.__rbydLatestBooks || []).find(x => x.id === id);
+      const title = b ? b.title : 'New book';
+      showToast(<><span>Added to To Read · </span><span className="toast-em">{title}</span></>, {
+        action: { label: 'Open', onClick: () => { location.hash = 'to-read'; } },
+      });
+    });
     setShowAdd(true);
   };
 
-  // Re-sync detail book whenever store updates
-  const { books } = useStore();
+  // Re-sync detail book whenever store updates (books already destructured above)
   const liveDetail = useMemoA(() => detailBook ? books.find((b) => b.id === detailBook.id) : null, [books, detailBook]);
   const liveEdit = useMemoA(() => editBook ? books.find((b) => b.id === editBook.id) : null, [books, editBook]);
 
@@ -137,6 +151,7 @@ function App() {
         {page === 'to-read' && <ToReadPage openDetail={openDetail} openEdit={openEdit} openAdd={openAdd} openImport={() => setShowImport(true)} />}
         {page === 'read' && <ReadPage openDetail={openDetail} openEdit={openEdit} openAdd={openAdd} />}
         {page === 'authors' && <AuthorsPage openDetail={openDetail} />}
+        {page === 'lent'    && <LentPage openDetail={openDetail} openEdit={openEdit} />}
       </main>
 
       {liveDetail && <BookDetail book={liveDetail} onClose={() => setDetailBook(null)} onEdit={() => openEdit(liveDetail)} />}
@@ -163,6 +178,8 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StoreProvider>
-    <App />
+    <ToastProvider>
+      <App />
+    </ToastProvider>
   </StoreProvider>
 );

@@ -1,6 +1,57 @@
 // modals.jsx — Add/Edit drawer, Detail view, Settings, Import
 const { useState: useStateM, useEffect: useEffectM, useMemo: useMemoM, useRef: useRefM, useCallback: useCallbackM } = React;
 
+// Format an ISO date (YYYY-MM-DD) into a short editorial string like "23 May 2026"
+function formatLentDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+window.formatLentDate = formatLentDate;
+
+// -------- Tiny inline input to add a custom tag to a book --------
+function NewTagInput({ existing, onAdd }) {
+  const [open, setOpen] = useStateM(false);
+  const [val, setVal] = useStateM('');
+  const ref = React.useRef(null);
+  React.useEffect(() => {
+    if (open && ref.current) ref.current.focus();
+  }, [open]);
+  const commit = () => {
+    const trimmed = val.trim();
+    if (!trimmed) { setOpen(false); return; }
+    // Normalise to title-case, dedupe
+    const norm = trimmed.charAt(0).toUpperCase() + trimmed.slice(1);
+    if (!existing.includes(norm)) onAdd(norm);
+    setVal('');
+    setOpen(false);
+  };
+  if (!open) {
+    return (
+      <button type="button" className="filter-chip tag-add" onClick={() => setOpen(true)} title="Add a custom tag">
+        + Add tag
+      </button>
+    );
+  }
+  return (
+    <input
+      ref={ref}
+      type="text"
+      className="tag-input"
+      value={val}
+      onChange={e => setVal(e.target.value)}
+      onBlur={commit}
+      onKeyDown={e => {
+        if (e.key === 'Enter') { e.preventDefault(); commit(); }
+        else if (e.key === 'Escape') { setVal(''); setOpen(false); }
+      }}
+      placeholder="New tag…"
+      maxLength={24}
+    />
+  );
+}
+
 // -------- Add / Edit drawer --------
 function BookForm({ book, onClose, onSaved, onOpenImport }) {
   const { addBook, updateBook, removeBook, setNext, books } = useStore();
@@ -18,7 +69,7 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
     title: '', authorFirst: '', authorLast: '',
     list: 'to-read', tags: [], nobelPrize: false,
     dateRead: '', rating: null, notes: '', language: '',
-    audiobook: false, borrowed: false, borrowedFrom: '',
+    audiobook: false, lent: false, lentTo: '', lentOn: '',
     coverUrl: '',
   });
   const [searchQ, setSearchQ] = useStateM('');
@@ -61,19 +112,19 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
     onClose();
   };
   const del = () => {
-    if (confirm('Delete "' + draft.title + '"?')) { removeBook(draft.id); onClose(); }
+    // Removal triggers a toast with Undo via the store; no confirm() dialog needed.
+    removeBook(draft.id);
+    onClose();
   };
 
   return (
     <div className="drawer" role="dialog">
-      <div className="modal-head">
-        <div>
-          <div className="caps" style={{fontSize:11, letterSpacing:'0.22em', marginBottom:8}}>{isNew ? 'Add a book' : 'Edit'}</div>
-          <h3>{isNew ? 'A new title for the shelf' : draft.title || 'Untitled'}</h3>
-        </div>
+      <div className="drawer-head">
+        <div className="caps drawer-eyebrow">{isNew ? 'Add book' : 'Edit book'}</div>
         <CloseX onClick={onClose} />
       </div>
 
+      <div className="drawer-body">
       {isNew && (
         <div style={{marginBottom: 28}}>
           <label className="label" style={{marginBottom:8}}>Search Open Library</label>
@@ -139,13 +190,17 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
         <label className="full">
           <span>Tags</span>
           <div className="tag-picker">
-            {TAGS.map(t => (
+            {Array.from(new Set([...TAGS, ...draft.tags])).map(t => (
               <button key={t} type="button"
                 className={"filter-chip " + (draft.tags.includes(t)?'active':'')}
                 onClick={() => upd({tags: draft.tags.includes(t) ? draft.tags.filter(x=>x!==t) : [...draft.tags, t]})}>
                 {t}
               </button>
             ))}
+            <NewTagInput
+              existing={draft.tags}
+              onAdd={(t) => upd({ tags: [...draft.tags, t] })}
+            />
           </div>
         </label>
         <label className="full">
@@ -160,23 +215,48 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
               <span>Audiobook</span>
             </label>
             <label>
-              <input type="checkbox" checked={draft.borrowed} onChange={e => upd({borrowed: e.target.checked})} />
-              <span>Borrowed</span>
+              <input type="checkbox" checked={draft.lent} onChange={e => {
+                const checked = e.target.checked;
+                upd({
+                  lent: checked,
+                  // Pre-fill today's date when first toggled on
+                  lentOn: checked ? (draft.lentOn || new Date().toISOString().slice(0,10)) : '',
+                });
+              }} />
+              <span>Lent</span>
             </label>
           </div>
         </label>
-        {draft.borrowed && (
-          <label className="full">
-            <span>Borrowed from</span>
-            <input type="text" value={draft.borrowedFrom} onChange={e => upd({borrowedFrom: e.target.value})} placeholder="Name" />
-          </label>
+        {draft.lent && (
+          <>
+            <label>
+              <span>Lent to</span>
+              <input type="text" value={draft.lentTo} onChange={e => upd({lentTo: e.target.value})} placeholder="Name" />
+            </label>
+            <label>
+              <span>Lent on</span>
+              <input type="date" value={draft.lentOn} onChange={e => upd({lentOn: e.target.value})} />
+            </label>
+          </>
         )}
 
         {draft.list === 'read' && (
           <>
             <label>
-              <span>Date read</span>
-              <input type="text" value={draft.dateRead} onChange={e => upd({dateRead: e.target.value})} placeholder="YYYY-MM-DD or year" />
+              <span>Year read</span>
+              <input
+                type="number"
+                min="1900"
+                max={new Date().getFullYear() + 1}
+                step="1"
+                value={draft.dateRead || ''}
+                onChange={e => {
+                  const v = e.target.value;
+                  // Cap at 4 digits — input type="number" lets users type more
+                  if (v.length > 4) return;
+                  upd({ dateRead: v });
+                }}
+                placeholder="e.g. 2024" />
             </label>
             <label>
               <span>Language</span>
@@ -196,8 +276,9 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
           </>
         )}
       </div>
+      </div>
 
-      <div style={{display:'flex', gap:12, marginTop:28, justifyContent:'space-between'}}>
+      <div className="drawer-foot">
         <div style={{display:'flex', gap:8}}>
           {!isNew && <button className="btn" onClick={del}>Delete</button>}
           {!isNew && draft.list==='to-read' && !draft.toReadNext && (
@@ -376,7 +457,7 @@ function BookDetail({ book, onClose, onEdit }) {
               {book.nobelPrize && <NobelPill />}
               {book.language && <Pill solid>{LANG_SHORT[book.language] || book.language}</Pill>}
               {book.audiobook && <Pill><AudioGlyph /> Audio</Pill>}
-              {book.borrowed && <Pill dim>From {book.borrowedFrom || '—'}</Pill>}
+              {book.lent && <Pill dim>Lent to {book.lentTo || '—'}{book.lentOn ? ` · ${formatLentDate(book.lentOn)}` : ''}</Pill>}
               {book.tags.map(t => <Pill key={t}>{t}</Pill>)}
             </div>
             {book.list === 'read' && book.rating != null && (
@@ -573,6 +654,9 @@ function ImportModal({ onClose }) {
         setBooks(arr);
       } else {
         bulkAdd(arr);
+      }
+      if (window.__rbydShowToast) {
+        window.__rbydShowToast(`Imported ${arr.length} ${arr.length === 1 ? 'book' : 'books'}`);
       }
       onClose();
     } catch(e) {

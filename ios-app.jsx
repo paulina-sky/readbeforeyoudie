@@ -321,23 +321,21 @@ function MListScreen({ kind, books, openDetail }) {
   const lettersPresent = useMemoI(() => {
     const s = new Set();
     for (const b of list) {
-      const c = (b.authorLast || b.authorFirst || '?').charAt(0).toUpperCase();
-      s.add(/[A-Z]/.test(c) ? c : '#');
+      s.add(firstLetter(b.authorLast || b.authorFirst));
     }
     return s;
   }, [list]);
   const filteredLetterCounts = useMemoI(() => {
     const c = {};
     for (const b of filtered) {
-      const ch = (b.authorLast || b.authorFirst || '?').charAt(0).toUpperCase();
-      const k = /[A-Z]/.test(ch) ? ch : '#';
+      const k = firstLetter(b.authorLast || b.authorFirst);
       c[k] = (c[k]||0)+1;
     }
     return c;
   }, [filtered]);
 
   const grouped = sortBy === 'surname';
-  const ALPHA_BAR = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','#'];
+  const ALPHA_BAR = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 
   const jumpTo = (L) => {
     const root = scrollRef.current;
@@ -352,8 +350,7 @@ function MListScreen({ kind, books, openDetail }) {
   let lastLetter = null;
   const rows = [];
   for (const b of filtered) {
-    const c = (b.authorLast || b.authorFirst || '?').charAt(0).toUpperCase();
-    const L = /[A-Z]/.test(c) ? c : '#';
+    const L = firstLetter(b.authorLast || b.authorFirst);
     if (grouped && L !== lastLetter) {
       rows.push(<MLetterDivider key={'h-'+L} letter={L} count={filteredLetterCounts[L]||0} data-letter={L} />);
       lastLetter = L;
@@ -479,13 +476,12 @@ function MAuthorsScreen({ books, openDetail }) {
   const letters = useMemoI(() => {
     const s = new Set();
     for (const a of byAuthor) {
-      const c = (a.surname || '?').charAt(0).toUpperCase();
-      s.add(/[A-Z]/.test(c) ? c : '#');
+      s.add(firstLetter(a.surname));
     }
     return s;
   }, [byAuthor]);
 
-  const ALPHA_BAR = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','#'];
+  const ALPHA_BAR = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 
   const jumpTo = (L) => {
     const root = scrollRef.current; if (!root) return;
@@ -497,8 +493,7 @@ function MAuthorsScreen({ books, openDetail }) {
   let lastL = null;
   const rows = [];
   for (const a of filtered) {
-    const c = (a.surname || '?').charAt(0).toUpperCase();
-    const L = /[A-Z]/.test(c) ? c : '#';
+    const L = firstLetter(a.surname);
     if (L !== lastL) {
       rows.push(<MLetterDivider key={'h-'+L} letter={L} count={0} data-letter={L} />);
       lastL = L;

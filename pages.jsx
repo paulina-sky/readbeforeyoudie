@@ -292,7 +292,7 @@ function LetterDivider({ letter, count }) {
 
 }
 
-const ALPHA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '#'];
+const ALPHA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
 // -------- Unified list page (To Read / Read) --------
 function BookListPage({ mode, openDetail, openEdit, openAdd, openImport }) {
@@ -330,10 +330,7 @@ function BookListPage({ mode, openDetail, openEdit, openAdd, openImport }) {
     if (tagFilter) r = r.filter((b) => b.tags.includes(tagFilter));
     if (langFilter) r = r.filter((b) => b.language === langFilter);
     if (onlyNobel) r = r.filter((b) => b.nobelPrize);
-    if (letter) r = r.filter((b) => {
-      const c = (b.authorLast || b.authorFirst || '?').charAt(0).toUpperCase();
-      return letter === '#' ? !/[A-Z]/.test(c) : c === letter;
-    });
+    if (letter) r = r.filter((b) => firstLetter(b.authorLast || b.authorFirst) === letter);
 
     if (sortBy === 'surname') r = sortBySurname(r);else
     if (sortBy === 'title') r = [...r].sort((a, b) => (a.title || '').localeCompare(b.title || ''));else
@@ -346,8 +343,7 @@ function BookListPage({ mode, openDetail, openEdit, openAdd, openImport }) {
   const lettersPresent = useMemoP(() => {
     const set = new Set();
     for (const b of list) {
-      const c = (b.authorLast || b.authorFirst || '?').charAt(0).toUpperCase();
-      set.add(/[A-Z]/.test(c) ? c : '#');
+      set.add(firstLetter(b.authorLast || b.authorFirst));
     }
     return set;
   }, [list]);
@@ -356,8 +352,7 @@ function BookListPage({ mode, openDetail, openEdit, openAdd, openImport }) {
   const filteredLetterCounts = useMemoP(() => {
     const c = {};
     for (const b of filtered) {
-      const ch = (b.authorLast || b.authorFirst || '?').charAt(0).toUpperCase();
-      const k = /[A-Z]/.test(ch) ? ch : '#';
+      const k = firstLetter(b.authorLast || b.authorFirst);
       c[k] = (c[k] || 0) + 1;
     }
     return c;
@@ -401,7 +396,7 @@ function BookListPage({ mode, openDetail, openEdit, openAdd, openImport }) {
   const jumpTo = (L) => {
     setLetter(null);
     requestAnimationFrame(() => {
-      const el = document.getElementById('lt-' + (L === '#' ? 'hash' : L));
+      const el = document.getElementById('lt-' + L);
       if (el) {
         const panel = document.querySelector('.filter-panel');
         const offset = (panel ? panel.getBoundingClientRect().height : 0) + 8;
@@ -416,11 +411,10 @@ function BookListPage({ mode, openDetail, openEdit, openAdd, openImport }) {
   const rendered = [];
   for (let i = 0; i < filtered.length; i++) {
     const b = filtered[i];
-    const c = (b.authorLast || b.authorFirst || '?').charAt(0).toUpperCase();
-    const L = /[A-Z]/.test(c) ? c : '#';
+    const L = firstLetter(b.authorLast || b.authorFirst);
     if (grouped && L !== lastLetter) {
       rendered.push(
-        <div key={'h-' + L} id={'lt-' + (L === '#' ? 'hash' : L)} data-letter-anchor={L}>
+        <div key={'h-' + L} id={'lt-' + L} data-letter-anchor={L}>
           <LetterDivider letter={L} count={filteredLetterCounts[L] || 0} />
         </div>
       );
@@ -503,11 +497,27 @@ function BookListPage({ mode, openDetail, openEdit, openAdd, openImport }) {
         </div>
       </div>
 
-      {rendered}
-
-      {filtered.length === 0 &&
-      <div className="hint" style={{ padding: '48px 0' }}>Nothing matches. Try clearing filters.</div>
-      }
+      {filtered.length > 0 ? rendered : (
+        <div className="empty-state">
+          <div className="empty-state-eyebrow caps">No matches</div>
+          <div className="empty-state-msg serif">
+            {q
+              ? <>Nothing in your shelf matches <em>"{q}"</em>.</>
+              : <>Nothing matches the current filters.</>}
+          </div>
+          <div className="empty-state-actions">
+            {q && <button className="btn" onClick={() => setQ('')}>Clear search</button>}
+            {(tagFilter || langFilter || onlyNobel || letter) && (
+              <button className="btn" onClick={() => { setTagFilter(null); setLangFilter(null); setOnlyNobel(false); setLetter(null); }}>
+                Clear filters
+              </button>
+            )}
+            {!q && !tagFilter && !langFilter && !onlyNobel && !letter && (
+              <span className="hint">Try searching for a title or author above.</span>
+            )}
+          </div>
+        </div>
+      )}
     </div>);
 
 }
@@ -571,18 +581,14 @@ function AuthorsPage({ openDetail }) {
   const letters = useMemoP(() => {
     const set = new Set();
     for (const a of byAuthor) {
-      const c = (a.surname || '?').charAt(0).toUpperCase();
-      set.add(/[A-Z]/.test(c) ? c : '#');
+      set.add(firstLetter(a.surname));
     }
     return set;
   }, [byAuthor]);
 
   const filtered = useMemoP(() => {
     if (!letter) return byAuthor;
-    return byAuthor.filter((a) => {
-      const c = (a.surname || '?').charAt(0).toUpperCase();
-      return letter === '#' ? !/[A-Z]/.test(c) : c === letter;
-    });
+    return byAuthor.filter((a) => firstLetter(a.surname) === letter);
   }, [byAuthor, letter]);
 
   return (
@@ -674,7 +680,111 @@ function AuthorsPage({ openDetail }) {
 
 }
 
-Object.assign(window, { HomePage, ToReadPage, ReadPage, AuthorsPage, BookRow });
+Object.assign(window, { HomePage, ToReadPage, ReadPage, AuthorsPage, LentPage, BookRow });
+
+// -------- LENT --------
+function LentPage({ openDetail, openEdit }) {
+  const { books, updateBook } = useStore();
+  const [removing, setRemoving] = useStateP({});
+
+  // Newest lent first. Use lentOn date for sort, falling back to creation order.
+  const lent = useMemoP(() =>
+    books.filter(b => b.lent).sort((a, b) =>
+      (b.lentOn || '').localeCompare(a.lentOn || '') || (b.id || '').localeCompare(a.id || '')
+    ),
+    [books]);
+
+  const markReturned = (id) => {
+    const snapshot = books.find(b => b.id === id);
+    setRemoving(s => ({ ...s, [id]: true }));
+    setTimeout(() => {
+      updateBook(id, { lent: false, lentTo: '', lentOn: '' });
+      setRemoving(s => { const next = { ...s }; delete next[id]; return next; });
+      if (snapshot && window.__rbydShowToast) {
+        window.__rbydShowToast(
+          React.createElement('span', null,
+            'Returned to your shelf · ',
+            React.createElement('span', { className: 'toast-em' }, snapshot.title)),
+          { action: { label: 'Undo', onClick: () => {
+            updateBook(id, { lent: snapshot.lent, lentTo: snapshot.lentTo, lentOn: snapshot.lentOn });
+          } } }
+        );
+      }
+    }, 480);
+  };
+
+  return (
+    <div className="container">
+      <div className="section-head list-head">
+        <div className="list-head-titles">
+          <div className="eyebrow-line caps">
+            <span>{lent.length} {lent.length === 1 ? 'title' : 'titles'}</span>
+            <span className="bullet">·</span>
+            <span>Out on loan</span>
+          </div>
+          <h2 className="display">Lent</h2>
+        </div>
+      </div>
+
+      {lent.length === 0 ? (
+        <div className="empty-state">
+          <div className="empty-state-eyebrow caps">No books out</div>
+          <div className="empty-state-msg serif">
+            Nothing is currently lent.
+          </div>
+          <div className="empty-state-actions">
+            <span className="hint" style={{maxWidth: 480, textAlign:'center'}}>
+              When you lend a book, edit it and toggle <em>Lent</em> — it'll appear here so you don't forget who has it.
+            </span>
+          </div>
+        </div>
+      ) : (
+        <div className="lent-list">
+          {lent.map(b => (
+            <div key={b.id} className={"lent-row" + (removing[b.id] ? ' returning' : '')}>
+              <div className="lent-cover" onClick={() => openDetail(b)}><Cover book={b} /></div>
+              <div className="lent-main" onClick={() => openDetail(b)}>
+                <div className="lent-title serif">{b.title}</div>
+                <div className="lent-author caps">{fullName(b)}</div>
+              </div>
+              <div className="lent-who">
+                <div className="lent-label caps">Lent to</div>
+                <input
+                  type="text"
+                  className="lent-input lent-name"
+                  value={b.lentTo || ''}
+                  onChange={e => updateBook(b.id, { lentTo: e.target.value })}
+                  placeholder="Name"
+                />
+              </div>
+              <div className="lent-when">
+                <div className="lent-label caps">Since</div>
+                <input
+                  type="date"
+                  className="lent-input lent-date"
+                  value={b.lentOn || ''}
+                  onChange={e => updateBook(b.id, { lentOn: e.target.value })}
+                />
+              </div>
+              <button
+                className="lent-return"
+                onClick={() => markReturned(b.id)}
+                title="Mark as returned"
+                aria-label="Mark as returned"
+              >
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 7.5 L6 10.5 L11 4.5" />
+                </svg>
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+Object.assign(window, { LentPage });
 
 // -------- QueuePicker: search To Read + add new --------
 function QueuePicker({ onClose, onPick, onAddNew }) {

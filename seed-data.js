@@ -9,14 +9,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b2",
@@ -28,14 +29,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b3",
@@ -47,14 +49,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b4",
@@ -66,14 +69,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b5",
@@ -85,14 +89,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b6",
@@ -104,14 +109,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b7",
@@ -123,14 +129,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b8",
@@ -144,14 +151,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b9",
@@ -163,14 +171,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b10",
@@ -184,14 +193,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 1,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b11",
@@ -205,14 +215,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b12",
@@ -224,14 +235,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2014",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b13",
@@ -243,14 +255,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b14",
@@ -262,14 +275,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b15",
@@ -283,14 +297,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2015",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b16",
@@ -302,14 +317,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 5,
     "notes": "recommended by: Simon\nKuddos for the titles of the big Four. The first one - high literature, the second more boring, the third: a straight up gossip book, the forth: old age synthesis rather than a story (which is impressive in the end). All filled with niuanse & largely immersive; incredibly skilled structure.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b17",
@@ -321,14 +337,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 5,
     "notes": "recommended by: Simon\nKuddos for the titles of the big Four. The first one - high literature, the second more boring, the third: a straight up gossip book, the forth: old age synthesis rather than a story (which is impressive in the end). All filled with niuanse & largely immersive; incredibly skilled structure.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b18",
@@ -340,14 +357,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 5,
     "notes": "recommended by: Simon\nKuddos for the titles of the big Four. The first one - high literature, the second more boring, the third: a straight up gossip book, the forth: old age synthesis rather than a story (which is impressive in the end). All filled with niuanse & largely immersive; incredibly skilled structure.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b19",
@@ -359,14 +377,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 5,
     "notes": "recommended by: Simon\nKuddos for the titles of the big Four. The first one - high literature, the second more boring, the third: a straight up gossip book, the forth: old age synthesis rather than a story (which is impressive in the end). All filled with niuanse & largely immersive; incredibly skilled structure.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b20",
@@ -378,14 +397,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 5,
     "notes": "recommended by: Simon\nKuddos for the titles of the big Four. The first one - high literature, the second more boring, the third: a straight up gossip book, the forth: old age synthesis rather than a story (which is impressive in the end). All filled with niuanse & largely immersive; incredibly skilled structure.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b21",
@@ -397,14 +417,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b22",
@@ -416,14 +437,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b23",
@@ -435,14 +457,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b24",
@@ -454,14 +477,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b25",
@@ -473,14 +497,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b26",
@@ -492,14 +517,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b27",
@@ -511,14 +537,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b28",
@@ -530,14 +557,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b29",
@@ -549,14 +577,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b30",
@@ -568,14 +597,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b31",
@@ -587,14 +617,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b32",
@@ -606,14 +637,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Twardoch",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b33",
@@ -627,14 +659,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b34",
@@ -646,14 +679,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b35",
@@ -665,14 +699,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b36",
@@ -686,14 +721,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b37",
@@ -707,14 +743,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b38",
@@ -726,14 +763,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b39",
@@ -745,14 +783,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 7,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b40",
@@ -764,14 +803,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 7,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b41",
@@ -783,14 +823,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b42",
@@ -802,14 +843,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b43",
@@ -821,14 +863,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b44",
@@ -840,14 +883,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b45",
@@ -859,14 +903,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b46",
@@ -878,14 +923,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b47",
@@ -897,14 +943,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020, 2021, 2025",
     "rating": 13,
     "notes": "In Ishiguro’s writing it’s more important what’s not written than what is. Never let me go read like Ferrante and it is incomparable to the film.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b48",
@@ -916,14 +963,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020, 2021, 2025",
     "rating": 13,
     "notes": "In Ishiguro’s writing it’s more important what’s not written than what is. Never let me go read like Ferrante and it is incomparable to the film.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b49",
@@ -935,14 +983,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020, 2021, 2025",
     "rating": 13,
     "notes": "In Ishiguro’s writing it’s more important what’s not written than what is. Never let me go read like Ferrante and it is incomparable to the film.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b50",
@@ -954,14 +1003,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b51",
@@ -975,14 +1025,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b52",
@@ -996,14 +1047,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2014",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b53",
@@ -1015,14 +1067,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "highschool",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b54",
@@ -1034,14 +1087,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b55",
@@ -1053,14 +1107,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b56",
@@ -1072,14 +1127,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 5,
     "notes": "Creative writing course; Easter-European Marquez - jak pięknie można pisać o piekle, tutaj język jest bohaterem, wrażliwością bohatera",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b57",
@@ -1091,14 +1147,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 4,
     "notes": "Po Alice Munro najlepsze opowiadania, jakie czytałam",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b58",
@@ -1110,14 +1167,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b59",
@@ -1129,14 +1187,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b60",
@@ -1148,14 +1207,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b61",
@@ -1167,14 +1227,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b62",
@@ -1186,14 +1247,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 1,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b63",
@@ -1205,14 +1267,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b64",
@@ -1224,14 +1287,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022, 2023",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b65",
@@ -1243,14 +1307,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022, 2023",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b66",
@@ -1262,14 +1327,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b67",
@@ -1281,14 +1347,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b68",
@@ -1300,14 +1367,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b69",
@@ -1319,14 +1387,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b70",
@@ -1338,14 +1407,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b71",
@@ -1357,14 +1427,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b72",
@@ -1378,14 +1449,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b73",
@@ -1397,14 +1469,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b74",
@@ -1416,14 +1489,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b75",
@@ -1437,14 +1511,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b76",
@@ -1456,14 +1531,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b77",
@@ -1477,14 +1553,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b78",
@@ -1496,14 +1573,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b79",
@@ -1515,14 +1593,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b80",
@@ -1536,14 +1615,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b81",
@@ -1555,14 +1635,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b82",
@@ -1576,14 +1657,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Lovely language but daunting at times, I also felt I’ve read similar stuff already",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b83",
@@ -1597,14 +1679,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2017",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b84",
@@ -1618,14 +1701,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 1,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b85",
@@ -1637,14 +1721,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b86",
@@ -1658,14 +1743,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b87",
@@ -1677,14 +1763,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b88",
@@ -1696,14 +1783,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b89",
@@ -1715,14 +1803,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b90",
@@ -1734,14 +1823,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b91",
@@ -1755,14 +1845,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b92",
@@ -1774,14 +1865,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b93",
@@ -1793,14 +1885,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b94",
@@ -1812,14 +1905,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b95",
@@ -1831,14 +1925,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b96",
@@ -1850,14 +1945,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b97",
@@ -1869,14 +1965,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b98",
@@ -1888,14 +1985,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b99",
@@ -1907,14 +2005,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b100",
@@ -1928,14 +2027,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b101",
@@ -1947,14 +2047,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b102",
@@ -1966,14 +2067,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b103",
@@ -1985,14 +2087,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b104",
@@ -2004,14 +2107,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b105",
@@ -2023,14 +2127,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b106",
@@ -2042,14 +2147,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b107",
@@ -2061,14 +2167,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b108",
@@ -2080,14 +2187,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b109",
@@ -2099,14 +2207,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b110",
@@ -2118,14 +2227,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b111",
@@ -2137,14 +2247,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b112",
@@ -2156,14 +2267,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b113",
@@ -2175,14 +2287,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b114",
@@ -2194,14 +2307,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b115",
@@ -2213,14 +2327,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b116",
@@ -2234,14 +2349,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 4,
     "notes": "cancer read, tough times read; send to me by Chris, surprisingly wise for what it is",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b117",
@@ -2253,14 +2369,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b118",
@@ -2272,14 +2389,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b119",
@@ -2293,14 +2411,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b120",
@@ -2312,14 +2431,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b121",
@@ -2331,14 +2451,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b122",
@@ -2350,14 +2471,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b123",
@@ -2371,14 +2493,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b124",
@@ -2390,14 +2513,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b125",
@@ -2409,14 +2533,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b126",
@@ -2428,14 +2553,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b127",
@@ -2447,14 +2573,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b128",
@@ -2466,14 +2593,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Great idea, great beginning, later more and more repetitive",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b129",
@@ -2485,14 +2613,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2026",
     "rating": 2,
     "notes": "I wish I read it in Polish. In English, the language felt forced. The ending and the “moral of the story” suuuuper weak and unbelievable, shame",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b130",
@@ -2506,14 +2635,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b131",
@@ -2527,14 +2657,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2018",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b132",
@@ -2546,14 +2677,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b133",
@@ -2567,14 +2699,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b134",
@@ -2588,14 +2721,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b135",
@@ -2607,14 +2741,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b136",
@@ -2626,14 +2761,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b137",
@@ -2645,14 +2781,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b138",
@@ -2664,14 +2801,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b139",
@@ -2685,14 +2823,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b140",
@@ -2706,14 +2845,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b141",
@@ -2725,14 +2865,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b142",
@@ -2744,14 +2885,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b143",
@@ -2763,14 +2905,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b144",
@@ -2782,14 +2925,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b145",
@@ -2801,14 +2945,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b146",
@@ -2820,14 +2965,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b147",
@@ -2839,14 +2985,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b148",
@@ -2858,14 +3005,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b149",
@@ -2879,14 +3027,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b150",
@@ -2898,14 +3047,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b151",
@@ -2917,14 +3067,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b152",
@@ -2936,14 +3087,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b153",
@@ -2955,14 +3107,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b154",
@@ -2974,14 +3127,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b155",
@@ -2993,14 +3147,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b156",
@@ -3012,14 +3167,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b157",
@@ -3031,14 +3187,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 7,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b158",
@@ -3050,14 +3207,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 7,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b159",
@@ -3069,14 +3227,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b160",
@@ -3088,14 +3247,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2018",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b161",
@@ -3109,14 +3269,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b162",
@@ -3130,14 +3291,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b163",
@@ -3151,14 +3313,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2016",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b164",
@@ -3170,14 +3333,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 8,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b165",
@@ -3189,14 +3353,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 8,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b166",
@@ -3210,14 +3375,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Dobrze było ją przeczytać, ale to jedna z tych książek, która jednak trochę się postarzała - bardzo egocentryczna i wolałabym więcej opisów manii lub depresji, niż wyliczanki sukcesów akademickich. Przeczytana w samolocie, mimo początku.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b167",
@@ -3229,14 +3395,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b168",
@@ -3248,14 +3415,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b169",
@@ -3267,14 +3435,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b170",
@@ -3286,14 +3455,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b171",
@@ -3305,14 +3475,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b172",
@@ -3324,14 +3495,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b173",
@@ -3343,14 +3515,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b174",
@@ -3364,14 +3537,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b175",
@@ -3383,14 +3557,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b176",
@@ -3402,14 +3577,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b177",
@@ -3423,14 +3599,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b178",
@@ -3442,14 +3619,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b179",
@@ -3461,14 +3639,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b180",
@@ -3480,14 +3659,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b181",
@@ -3501,14 +3681,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b182",
@@ -3520,14 +3701,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b183",
@@ -3539,14 +3721,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b184",
@@ -3558,14 +3741,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b185",
@@ -3577,14 +3761,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b186",
@@ -3596,14 +3781,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b187",
@@ -3615,14 +3801,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b188",
@@ -3634,14 +3821,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b189",
@@ -3653,14 +3841,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b190",
@@ -3672,14 +3861,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b191",
@@ -3691,14 +3881,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b192",
@@ -3710,14 +3901,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 8,
     "notes": "O czasie, o świadomości i o wielu innych ważnych rzeczach https://www.youtube.com/watch?v=cDPZwTWPmJ8&t=2s&ab_channel=DWHistoryandCulture",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b193",
@@ -3729,14 +3921,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 8,
     "notes": "O czasie, o świadomości i o wielu innych ważnych rzeczach https://www.youtube.com/watch?v=cDPZwTWPmJ8&t=2s&ab_channel=DWHistoryandCulture",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b194",
@@ -3748,14 +3941,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b195",
@@ -3767,14 +3961,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b196",
@@ -3786,14 +3981,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b197",
@@ -3805,14 +4001,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b198",
@@ -3824,14 +4021,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b199",
@@ -3843,14 +4041,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b200",
@@ -3862,14 +4061,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b201",
@@ -3881,14 +4081,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b202",
@@ -3900,14 +4101,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b203",
@@ -3919,14 +4121,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 4,
     "notes": "recommended by: Simon\nPrzeczytana jednym tchem, piękny język, przewrotne historie o miłości. Ostatnie opowiadanie słabsze",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b204",
@@ -3938,14 +4141,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b205",
@@ -3957,14 +4161,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b206",
@@ -3976,14 +4181,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b207",
@@ -3995,14 +4201,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b208",
@@ -4014,14 +4221,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b209",
@@ -4035,14 +4243,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 8,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b210",
@@ -4056,14 +4265,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 8,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b211",
@@ -4077,14 +4287,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b212",
@@ -4096,14 +4307,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b213",
@@ -4117,14 +4329,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b214",
@@ -4136,14 +4349,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 1,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b215",
@@ -4157,14 +4371,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b216",
@@ -4178,14 +4393,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b217",
@@ -4197,14 +4413,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b218",
@@ -4216,14 +4433,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Axel",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b219",
@@ -4235,14 +4453,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Twardoch",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b220",
@@ -4254,14 +4473,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b221",
@@ -4273,14 +4493,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b222",
@@ -4292,14 +4513,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b223",
@@ -4311,14 +4533,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 4,
     "notes": "recommended by: Hen",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b224",
@@ -4330,14 +4553,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b225",
@@ -4349,14 +4573,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b226",
@@ -4368,14 +4593,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b227",
@@ -4387,14 +4613,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b228",
@@ -4406,14 +4633,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b229",
@@ -4425,14 +4653,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b230",
@@ -4446,14 +4675,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 4,
     "notes": "Simple but powerful book about simplicity. Outdated but in a cute way & still valuable.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b231",
@@ -4465,14 +4695,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b232",
@@ -4484,14 +4715,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b233",
@@ -4503,14 +4735,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b234",
@@ -4522,14 +4755,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b235",
@@ -4541,14 +4775,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b236",
@@ -4562,14 +4797,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2018",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b237",
@@ -4583,14 +4819,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b238",
@@ -4602,14 +4839,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b239",
@@ -4621,14 +4859,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b240",
@@ -4640,14 +4879,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "recommended by: Sarah-Jane",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b241",
@@ -4659,14 +4899,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "recommended by: Sarah-Jane",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b242",
@@ -4678,14 +4919,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "recommended by: Sarah-Jane",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b243",
@@ -4697,14 +4939,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b244",
@@ -4716,14 +4959,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b245",
@@ -4737,14 +4981,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b246",
@@ -4758,14 +5003,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b247",
@@ -4779,14 +5025,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b248",
@@ -4798,14 +5045,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b249",
@@ -4817,14 +5065,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b250",
@@ -4836,14 +5085,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b251",
@@ -4855,14 +5105,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b252",
@@ -4874,14 +5125,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b253",
@@ -4893,14 +5145,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b254",
@@ -4912,14 +5165,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 1,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b255",
@@ -4933,14 +5187,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b256",
@@ -4952,14 +5207,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b257",
@@ -4971,14 +5227,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b258",
@@ -4992,14 +5249,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2018",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b259",
@@ -5013,14 +5271,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b260",
@@ -5034,14 +5293,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b261",
@@ -5053,14 +5313,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b262",
@@ -5074,14 +5335,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b263",
@@ -5093,14 +5355,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 1,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b264",
@@ -5114,14 +5377,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2018",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b265",
@@ -5133,14 +5397,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b266",
@@ -5152,14 +5417,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b267",
@@ -5171,14 +5437,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b268",
@@ -5190,14 +5457,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b269",
@@ -5209,14 +5477,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b270",
@@ -5228,14 +5497,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b271",
@@ -5247,14 +5517,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b272",
@@ -5266,14 +5537,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b273",
@@ -5285,14 +5557,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b274",
@@ -5304,14 +5577,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b275",
@@ -5323,14 +5597,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b276",
@@ -5342,14 +5617,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b277",
@@ -5361,14 +5637,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b278",
@@ -5380,14 +5657,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b279",
@@ -5399,14 +5677,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b280",
@@ -5420,14 +5699,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b281",
@@ -5439,14 +5719,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b282",
@@ -5458,14 +5739,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b283",
@@ -5479,14 +5761,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 1,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b284",
@@ -5500,14 +5783,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019, 2021",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b285",
@@ -5521,14 +5805,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019, 2021",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b286",
@@ -5542,14 +5827,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b287",
@@ -5563,14 +5849,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b288",
@@ -5582,14 +5869,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b289",
@@ -5601,14 +5889,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b290",
@@ -5622,14 +5911,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b291",
@@ -5641,14 +5931,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b292",
@@ -5660,14 +5951,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b293",
@@ -5679,14 +5971,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b294",
@@ -5698,14 +5991,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b295",
@@ -5717,14 +6011,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b296",
@@ -5736,14 +6031,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b297",
@@ -5755,14 +6051,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b298",
@@ -5776,14 +6073,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b299",
@@ -5795,14 +6093,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b300",
@@ -5814,14 +6113,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Jeff",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b301",
@@ -5833,14 +6133,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Jeff",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b302",
@@ -5852,14 +6153,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b303",
@@ -5871,14 +6173,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b304",
@@ -5890,14 +6193,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Benny",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b305",
@@ -5909,14 +6213,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Współczesna powieść więc nie moje klimaty literackie, ale o drzewach, więc też bardzo moje. Podrzucona przez nieznajomego do przeczytania podczas raka - idealny czas na przyjęcie trochę innej, szerszej perspektywy",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b306",
@@ -5930,14 +6235,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b307",
@@ -5951,14 +6257,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b308",
@@ -5972,14 +6279,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b309",
@@ -5991,14 +6299,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2017",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b310",
@@ -6012,14 +6321,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "French",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b311",
@@ -6033,14 +6343,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b312",
@@ -6054,14 +6365,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b313",
@@ -6073,14 +6385,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b314",
@@ -6094,14 +6407,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b315",
@@ -6115,14 +6429,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b316",
@@ -6134,14 +6449,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2011",
     "rating": 4,
     "notes": "Przeczytane po raz drugi w 2024. Książka jest cudna, szczególnie opisy zapachów i miast. Trochę staromodny styl, ale też baśniowy, więc totalnie do wybaczenia.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b317",
@@ -6153,14 +6469,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Napisana bardzo prostym językiem (stylistycznie uzasadnionym) lektura licealna",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b318",
@@ -6172,14 +6489,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": true,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b319",
@@ -6191,14 +6509,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b320",
@@ -6212,14 +6531,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b321",
@@ -6231,14 +6551,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b322",
@@ -6250,14 +6571,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b323",
@@ -6269,14 +6591,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b324",
@@ -6288,14 +6611,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b325",
@@ -6307,14 +6631,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b326",
@@ -6326,14 +6651,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b327",
@@ -6347,14 +6673,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b328",
@@ -6368,14 +6695,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b329",
@@ -6389,14 +6717,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b330",
@@ -6410,14 +6739,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b331",
@@ -6431,14 +6761,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b332",
@@ -6450,14 +6781,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2013",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b333",
@@ -6469,14 +6801,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b334",
@@ -6488,14 +6821,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b335",
@@ -6507,14 +6841,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b336",
@@ -6526,14 +6861,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b337",
@@ -6547,14 +6883,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b338",
@@ -6568,14 +6905,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b339",
@@ -6589,14 +6927,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b340",
@@ -6608,14 +6947,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b341",
@@ -6627,14 +6967,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b342",
@@ -6646,14 +6987,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b343",
@@ -6665,14 +7007,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b344",
@@ -6684,14 +7027,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b345",
@@ -6703,14 +7047,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b346",
@@ -6724,14 +7069,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b347",
@@ -6743,14 +7089,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Janek Heidrych",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b348",
@@ -6762,14 +7109,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b349",
@@ -6781,14 +7129,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b350",
@@ -6800,14 +7149,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "z filmu “Film balkonowy”",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b351",
@@ -6819,14 +7169,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b352",
@@ -6838,14 +7189,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b353",
@@ -6857,14 +7209,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b354",
@@ -6876,14 +7229,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b355",
@@ -6895,14 +7249,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 1,
     "notes": "O depresji w o wiele za bardzo racjonalny sposób",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b356",
@@ -6914,14 +7269,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b357",
@@ -6933,14 +7289,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b358",
@@ -6952,14 +7309,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b359",
@@ -6971,14 +7329,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Feels like a book heavily pushed by social media. I laughed hard reading it but it’s hardly a wise literature and the ending feels lazy",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b360",
@@ -6990,14 +7349,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Myślałam, że nie podołam akademickiemu tonowi, ale kiedy ominąć odniesienia historyczne, to naprawdę cudownie inspirująca lektura",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b361",
@@ -7009,14 +7369,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Myślałam, że nie podołam akademickiemu tonowi, ale kiedy ominąć odniesienia historyczne, to naprawdę cudownie inspirująca lektura",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b362",
@@ -7030,14 +7391,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2026",
     "rating": 4,
     "notes": "Lovely, easy going self-help for maximizers",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b363",
@@ -7049,14 +7411,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b364",
@@ -7068,14 +7431,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b365",
@@ -7087,14 +7451,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b366",
@@ -7106,14 +7471,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b367",
@@ -7125,14 +7491,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b368",
@@ -7144,14 +7511,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b369",
@@ -7163,14 +7531,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b370",
@@ -7184,14 +7553,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b371",
@@ -7203,14 +7573,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b372",
@@ -7222,14 +7593,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b373",
@@ -7241,14 +7613,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b374",
@@ -7260,14 +7633,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b375",
@@ -7279,14 +7653,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b376",
@@ -7298,14 +7673,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 3,
     "notes": "Niesamowicie dobrze się to czytało, wszystko domknięte na ostatni guzik, ale mój estetyczny snobizm nie został zaspokojony",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b377",
@@ -7317,14 +7693,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b378",
@@ -7336,14 +7713,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b379",
@@ -7355,14 +7733,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b380",
@@ -7374,14 +7753,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2009",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b381",
@@ -7395,14 +7775,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b382",
@@ -7414,14 +7795,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 1,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b383",
@@ -7433,14 +7815,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b384",
@@ -7454,14 +7837,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b385",
@@ -7475,14 +7859,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b386",
@@ -7496,14 +7881,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b387",
@@ -7517,14 +7903,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b388",
@@ -7536,14 +7923,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b389",
@@ -7555,14 +7943,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b390",
@@ -7574,14 +7963,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b391",
@@ -7593,14 +7983,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b392",
@@ -7612,14 +8003,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b393",
@@ -7631,14 +8023,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b394",
@@ -7650,14 +8043,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b395",
@@ -7669,14 +8063,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b396",
@@ -7690,14 +8085,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 3,
     "notes": "",
     "language": "German",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b397",
@@ -7709,14 +8105,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b398",
@@ -7728,14 +8125,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b399",
@@ -7747,14 +8145,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b400",
@@ -7766,14 +8165,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b401",
@@ -7785,14 +8185,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b402",
@@ -7804,14 +8205,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b403",
@@ -7823,14 +8225,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b404",
@@ -7842,14 +8245,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b405",
@@ -7861,14 +8265,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b406",
@@ -7880,14 +8285,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b407",
@@ -7899,14 +8305,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b408",
@@ -7918,14 +8325,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b409",
@@ -7937,14 +8345,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b410",
@@ -7956,14 +8365,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b411",
@@ -7975,14 +8385,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b412",
@@ -7994,14 +8405,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b413",
@@ -8013,14 +8425,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Jeff",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b414",
@@ -8032,14 +8445,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Julka Niedziejko",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b415",
@@ -8051,14 +8465,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b416",
@@ -8070,14 +8485,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b417",
@@ -8089,14 +8505,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b418",
@@ -8108,14 +8525,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b419",
@@ -8127,14 +8545,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b420",
@@ -8146,14 +8565,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b421",
@@ -8165,14 +8585,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b422",
@@ -8184,14 +8605,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b423",
@@ -8203,14 +8625,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b424",
@@ -8222,14 +8645,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b425",
@@ -8241,14 +8665,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b426",
@@ -8262,14 +8687,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b427",
@@ -8281,14 +8707,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b428",
@@ -8302,14 +8729,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b429",
@@ -8323,14 +8751,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b430",
@@ -8342,14 +8771,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b431",
@@ -8363,14 +8793,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 16,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b432",
@@ -8384,14 +8815,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 16,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b433",
@@ -8405,14 +8837,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 16,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b434",
@@ -8426,14 +8859,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 16,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b435",
@@ -8447,14 +8881,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b436",
@@ -8466,14 +8901,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b437",
@@ -8485,14 +8921,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b438",
@@ -8506,14 +8943,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b439",
@@ -8525,14 +8963,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 4,
     "notes": "A ja myślałam, że to będzie jak Tomek Sawyer… do połowy książki dałam się nabrać. Opowieść o utraconej niewinności.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b440",
@@ -8546,14 +8985,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b441",
@@ -8565,14 +9005,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b442",
@@ -8584,14 +9025,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b443",
@@ -8603,14 +9045,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b444",
@@ -8622,14 +9065,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b445",
@@ -8641,14 +9085,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b446",
@@ -8662,14 +9107,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 4,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b447",
@@ -8681,14 +9127,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b448",
@@ -8700,14 +9147,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b449",
@@ -8719,14 +9167,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b450",
@@ -8738,14 +9187,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b451",
@@ -8757,14 +9207,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b452",
@@ -8778,14 +9229,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b453",
@@ -8799,14 +9251,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2019",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b454",
@@ -8820,14 +9273,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b455",
@@ -8841,14 +9295,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2014",
     "rating": 1,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b456",
@@ -8862,14 +9317,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b457",
@@ -8881,14 +9337,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b458",
@@ -8900,14 +9357,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b459",
@@ -8919,14 +9377,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2026",
     "rating": 5,
     "notes": "Przeczytane dwa razy, za drugim kliknęło.",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b460",
@@ -8938,14 +9397,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2015",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b461",
@@ -8959,14 +9419,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2026",
     "rating": 4,
     "notes": "Read first before Bristol (maybe 2016?) and the second time in 2026. It’s a book about evaluating socio-psychological studies; first part significantly better than the second of the book.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b462",
@@ -8980,14 +9441,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b463",
@@ -8999,14 +9461,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b464",
@@ -9018,14 +9481,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b465",
@@ -9037,14 +9501,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b466",
@@ -9056,14 +9521,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b467",
@@ -9075,14 +9541,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b468",
@@ -9094,14 +9561,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2013",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b469",
@@ -9113,14 +9581,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b470",
@@ -9132,14 +9601,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b471",
@@ -9153,14 +9623,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b472",
@@ -9174,14 +9645,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 1,
     "notes": "Unfortunately an absolute waste of time - there’s no one single thing left that’s relevant today. It’s a book from the times of Motorola and it’s shocking that it’s only 2011",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b473",
@@ -9195,14 +9667,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b474",
@@ -9214,14 +9687,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b475",
@@ -9233,14 +9707,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b476",
@@ -9252,14 +9727,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2021",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b477",
@@ -9271,14 +9747,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b478",
@@ -9290,14 +9767,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "Buddhist Tor",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b479",
@@ -9309,14 +9787,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b480",
@@ -9330,14 +9809,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b481",
@@ -9349,14 +9829,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2007",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b482",
@@ -9368,14 +9849,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2007",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b483",
@@ -9387,14 +9869,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2007",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b484",
@@ -9406,14 +9889,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2007",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b485",
@@ -9425,14 +9909,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2007",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b486",
@@ -9444,14 +9929,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2007",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b487",
@@ -9463,14 +9949,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2007",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b488",
@@ -9484,14 +9971,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b489",
@@ -9503,14 +9991,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b490",
@@ -9522,14 +10011,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b491",
@@ -9541,14 +10031,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b492",
@@ -9562,14 +10053,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2020",
     "rating": 1,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b493",
@@ -9583,14 +10075,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b494",
@@ -9602,14 +10095,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b495",
@@ -9621,14 +10115,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b496",
@@ -9640,14 +10135,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b497",
@@ -9659,14 +10155,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b498",
@@ -9678,14 +10175,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b499",
@@ -9697,14 +10195,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2024",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b500",
@@ -9718,14 +10217,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 2,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b501",
@@ -9737,14 +10237,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b502",
@@ -9756,14 +10257,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b503",
@@ -9775,14 +10277,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b504",
@@ -9794,14 +10297,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b505",
@@ -9813,14 +10317,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b506",
@@ -9832,14 +10337,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b507",
@@ -9851,14 +10357,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b508",
@@ -9870,14 +10377,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b509",
@@ -9889,14 +10397,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 3,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b510",
@@ -9908,14 +10417,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b511",
@@ -9927,14 +10437,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b512",
@@ -9946,14 +10457,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b513",
@@ -9965,14 +10477,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b514",
@@ -9984,14 +10497,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "recommended by: Axel",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b515",
@@ -10003,14 +10517,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b516",
@@ -10022,14 +10537,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b517",
@@ -10041,14 +10557,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b518",
@@ -10060,14 +10577,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b519",
@@ -10079,14 +10597,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b520",
@@ -10098,14 +10617,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b521",
@@ -10119,14 +10639,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 4,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b522",
@@ -10140,14 +10661,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2026",
     "rating": 3,
     "notes": "Książka łechtająca ego każdego introwertyka. Rozdział porównujący kulturę Ameryki i Chin jest dowodem na ogólną tendencyjność i ukryty brak krytycyzmu. Napisana z miłości do pisania, ale widać, że nie przez psychologa.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b523",
@@ -10161,14 +10683,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b524",
@@ -10180,14 +10703,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b525",
@@ -10199,14 +10723,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b526",
@@ -10220,14 +10745,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2017",
     "rating": 3,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b527",
@@ -10239,14 +10765,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2010, 2025",
     "rating": 7,
     "notes": "Tokarczuk pisze z miłości do pisania",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b528",
@@ -10258,14 +10785,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2010, 2025",
     "rating": 7,
     "notes": "Tokarczuk pisze z miłości do pisania",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b529",
@@ -10277,14 +10805,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b530",
@@ -10296,14 +10825,15 @@ window.SEED_BOOKS = [
     "nobelPrize": true,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b531",
@@ -10317,14 +10847,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b532",
@@ -10336,14 +10867,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b533",
@@ -10355,14 +10887,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 5,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b534",
@@ -10374,14 +10907,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2022",
     "rating": 3,
     "notes": "recommended by: Bogdan Żyłkowski",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b535",
@@ -10393,14 +10927,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b536",
@@ -10412,14 +10947,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 3,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b537",
@@ -10431,14 +10967,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b538",
@@ -10450,14 +10987,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "Polish",
     "audiobook": false,
-    "rejected": true
+    "rejected": true,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b539",
@@ -10469,14 +11007,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "Hobbit read in primary school",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b540",
@@ -10488,14 +11027,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": 3,
     "notes": "Hobbit read in primary school",
     "language": "Polish",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b541",
@@ -10507,14 +11047,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b542",
@@ -10528,14 +11069,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b543",
@@ -10547,14 +11089,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b544",
@@ -10566,14 +11109,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "to-read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "",
     "rating": null,
     "notes": "",
     "language": "",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b545",
@@ -10587,14 +11131,15 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2023",
     "rating": 5,
     "notes": "",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   },
   {
     "id": "b546",
@@ -10608,13 +11153,14 @@ window.SEED_BOOKS = [
     "nobelPrize": false,
     "list": "read",
     "toReadNext": false,
-    "borrowed": false,
-    "borrowedFrom": "",
     "dateRead": "2025",
     "rating": 5,
     "notes": "Bible, best thing I’ve ever read of spirituality. It’s the book that names what I lived by, what happened to me, that I could never put into words. I intent to read it every year.",
     "language": "English",
     "audiobook": false,
-    "rejected": false
+    "rejected": false,
+    "lent": false,
+    "lentTo": "",
+    "lentOn": ""
   }
 ];
