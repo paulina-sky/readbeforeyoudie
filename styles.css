@@ -1402,6 +1402,8 @@ main {
   padding: 48px 44px;
   position: relative;
   animation: cel-rise 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
 }
 @keyframes cel-rise {
   from { opacity: 0; transform: translateY(16px); }
@@ -1490,6 +1492,7 @@ main {
 .celebrate-stage .confetti .d13 { --dx:   80px; --dy:  100px; animation-delay: 0.68s; }
 
 .celebrate-form { display: flex; flex-direction: column; animation: cel-rise 0.3s ease-out; }
+.celebrate-form .celebrate-fields { margin-bottom: 22px; text-align: left; }
 .celebrate-form .celebrate-rating { display: flex; flex-direction: column; align-items: center; padding: 10px 0; }
 .celebrate-form .celebrate-rating .stars { gap: 8px; }
 .celebrate-form .celebrate-rating .stars .s { font-size: 32px; }

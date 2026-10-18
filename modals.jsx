@@ -52,6 +52,48 @@ function NewTagInput({ existing, onAdd }) {
   );
 }
 
+// -------- Fields shared by the Edit drawer and the Mark-as-Read form --------
+function FormatPicker({ value, onChange }) {
+  return (
+    <div className="tag-picker">
+      {FORMATS.map(f => (
+        <button key={f.id} type="button"
+          className={"filter-chip " + (value.includes(f.id) ? 'active' : '')}
+          onClick={() => onChange(value.includes(f.id) ? value.filter(x => x !== f.id) : [...value, f.id])}>
+          {f.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function YearReadInput({ value, onChange }) {
+  return (
+    <input
+      type="number"
+      min="1900"
+      max={new Date().getFullYear() + 1}
+      step="1"
+      value={yearRead(value)}
+      onChange={e => {
+        const v = e.target.value;
+        // Cap at 4 digits — input type="number" lets users type more
+        if (v.length > 4) return;
+        onChange(v);
+      }}
+      placeholder="e.g. 2024" />
+  );
+}
+
+function LanguageSelect({ value, onChange }) {
+  return (
+    <select value={value || ''} onChange={e => onChange(e.target.value)}>
+      <option value="">—</option>
+      {LANGUAGES.map(l => <option key={l} value={l}>{l}</option>)}
+    </select>
+  );
+}
+
 // -------- Add / Edit drawer --------
 function BookForm({ book, onClose, onSaved, onOpenImport }) {
   const { addBook, updateBook, removeBook, setNext, books } = useStore();
@@ -69,7 +111,7 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
     title: '', authorFirst: '', authorLast: '',
     list: 'to-read', tags: [], nobelPrize: false,
     dateRead: '', rating: null, notes: '', language: '',
-    audiobook: false, lent: false, lentTo: '', lentOn: '',
+    audiobook: false, formats: [], lent: false, lentTo: '', lentOn: '',
     coverUrl: '',
   });
   const [searchQ, setSearchQ] = useStateM('');
@@ -211,10 +253,6 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
               <span>Nobel laureate</span>
             </label>
             <label>
-              <input type="checkbox" checked={draft.audiobook} onChange={e => upd({audiobook: e.target.checked})} />
-              <span>Audiobook</span>
-            </label>
-            <label>
               <input type="checkbox" checked={draft.lent} onChange={e => {
                 const checked = e.target.checked;
                 upd({
@@ -240,30 +278,21 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
           </>
         )}
 
+        <label className="full">
+          <span>Format</span>
+          <FormatPicker value={bookFormats(draft)}
+            onChange={(formats) => upd({ formats, audiobook: formats.includes('audiobook') })} />
+        </label>
+
         {draft.list === 'read' && (
           <>
             <label>
               <span>Year read</span>
-              <input
-                type="number"
-                min="1900"
-                max={new Date().getFullYear() + 1}
-                step="1"
-                value={draft.dateRead || ''}
-                onChange={e => {
-                  const v = e.target.value;
-                  // Cap at 4 digits — input type="number" lets users type more
-                  if (v.length > 4) return;
-                  upd({ dateRead: v });
-                }}
-                placeholder="e.g. 2024" />
+              <YearReadInput value={draft.dateRead} onChange={(v) => upd({ dateRead: v })} />
             </label>
             <label>
               <span>Language</span>
-              <select value={draft.language} onChange={e => upd({language: e.target.value})}>
-                <option value="">—</option>
-                {LANGUAGES.map(l => <option key={l} value={l}>{l}</option>)}
-              </select>
+              <LanguageSelect value={draft.language} onChange={(v) => upd({ language: v })} />
             </label>
             <label className="full">
               <span>Rating</span>
@@ -298,6 +327,9 @@ function BookForm({ book, onClose, onSaved, onOpenImport }) {
 function MarkAsReadCelebration({ book, onClose, onConfirm }) {
   const [rating, setRating] = useStateM(book.rating || 0);
   const [notes, setNotes] = useStateM(book.notes || '');
+  const [formats, setFormats] = useStateM(bookFormats(book));
+  const [year, setYear] = useStateM(yearRead(book.dateRead) || String(new Date().getFullYear()));
+  const [language, setLanguage] = useStateM(book.language || '');
   const [stage, setStage] = useStateM('celebrate'); // 'celebrate' → 'form'
 
   React.useEffect(() => {
@@ -312,7 +344,11 @@ function MarkAsReadCelebration({ book, onClose, onConfirm }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [onClose]);
 
-  const save = () => { onConfirm({ rating: rating || null, notes }); onClose(); };
+  const save = () => {
+    onConfirm({ rating: rating || null, notes, formats, language,
+                dateRead: year || String(new Date().getFullYear()) });
+    onClose();
+  };
 
   return (
     <div className="celebrate-scrim" onClick={onClose}>
@@ -342,6 +378,21 @@ function MarkAsReadCelebration({ book, onClose, onConfirm }) {
             <div className="caps" style={{fontSize:11, letterSpacing:'0.28em', opacity:.6, marginBottom: 6}}>How was it?</div>
             <h3 className="serif" style={{fontSize:36, fontWeight:300, lineHeight:1.05, letterSpacing:'-0.01em', marginBottom: 6}}>{book.title}</h3>
             <div className="serif" style={{fontStyle:'italic', fontSize:18, opacity:.7, marginBottom: 26}}>{fullName(book)}</div>
+
+            <div className="form-grid celebrate-fields">
+              <label className="full">
+                <span>Format</span>
+                <FormatPicker value={formats} onChange={setFormats} />
+              </label>
+              <label>
+                <span>Year read</span>
+                <YearReadInput value={year} onChange={setYear} />
+              </label>
+              <label>
+                <span>Language</span>
+                <LanguageSelect value={language} onChange={setLanguage} />
+              </label>
+            </div>
 
             <div className="celebrate-rating">
               <Stars value={rating} onChange={setRating} size={32} />
@@ -484,7 +535,7 @@ function BookDetail({ book, onClose, onEdit }) {
                       <path d="M3 7.5 L6 10.5 L11 4.5" />
                     </svg>
                   </span>
-                  <span className="rs-label">Read{book.dateRead ? ` on ${book.dateRead}` : ''}</span>
+                  <span className="rs-label">Read{book.dateRead ? ` in ${yearRead(book.dateRead)}` : ''}</span>
                   <button className="rs-undo" onClick={() => unmarkAsRead(book.id)} title="Move back to To Read">Move back to To Read</button>
                 </div>
               )}
@@ -544,7 +595,7 @@ function BookDetail({ book, onClose, onEdit }) {
         <MarkAsReadCelebration
           book={book}
           onClose={() => setShowCelebrate(false)}
-          onConfirm={({ rating, notes }) => markAsRead(book.id, { rating, notes })}
+          onConfirm={(fields) => markAsRead(book.id, fields)}
         />
       )}
     </div>

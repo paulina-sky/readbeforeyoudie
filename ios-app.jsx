@@ -159,7 +159,7 @@ function MBookRow({ book, onOpen, showRating, showDate }) {
           {showRating && book.rating && <IStars value={book.rating} />}
           {book.language && <IPill>{LANG_SHORT[book.language] || book.language}</IPill>}
           {showDate && book.dateRead && (
-            <span style={{fontFamily:'var(--caps)', textTransform:'uppercase', letterSpacing:'0.16em', fontSize:9.5, opacity:.55}}>{book.dateRead}</span>
+            <span style={{fontFamily:'var(--caps)', textTransform:'uppercase', letterSpacing:'0.16em', fontSize:9.5, opacity:.55}}>{yearRead(book.dateRead)}</span>
           )}
           {book.tags.slice(0,2).map(t => <IPill key={t}>{t}</IPill>)}
           {book.tags.length > 2 && <span style={{fontFamily:'var(--caps)', fontSize: 9.5, opacity:.55}}>+{book.tags.length-2}</span>}
@@ -628,7 +628,7 @@ function MBookDetail({ book, onClose, onSetNext }) {
         {book.list === 'read' && (
           <div style={{display:'flex', gap: 18, alignItems:'baseline', marginTop: 4}}>
             <IStars value={book.rating || 0} size={18} />
-            {book.dateRead && <span style={{fontFamily:'var(--caps)', textTransform:'uppercase', letterSpacing:'0.18em', fontSize: 10.5, opacity:.7}}>{book.dateRead}</span>}
+            {book.dateRead && <span style={{fontFamily:'var(--caps)', textTransform:'uppercase', letterSpacing:'0.18em', fontSize: 10.5, opacity:.7}}>{yearRead(book.dateRead)}</span>}
           </div>
         )}
       </div>

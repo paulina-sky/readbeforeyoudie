@@ -26,7 +26,7 @@ function BookRow({ book, mode, onOpen, onEdit, expanded, onExpand }) {
         </div>
         <div className="row-right" onClick={(e) => e.stopPropagation()}>
           {mode === 'read' && <Stars value={book.rating || 0} onChange={(v) => updateBook(book.id, { rating: v || null })} size={18} />}
-          {mode === 'read' && <div className="caps" style={{ fontSize: 11, letterSpacing: '0.18em', minWidth: 60, textAlign: 'right', opacity: .8 }}>{book.dateRead || '—'}</div>}
+          {mode === 'read' && <div className="caps" style={{ fontSize: 11, letterSpacing: '0.18em', minWidth: 60, textAlign: 'right', opacity: .8 }}>{yearRead(book.dateRead) || '—'}</div>}
           <div className="row-actions">
             {mode === 'to-read' && !isNext &&
             <button
@@ -50,8 +50,8 @@ function BookRow({ book, mode, onOpen, onEdit, expanded, onExpand }) {
             <div className="hint">No notes yet. Click Edit to add some.</div>}
             </div>
             <div style={{ borderLeft: '1px solid #000', paddingLeft: 22 }}>
-              <div className="caps" style={{ fontSize: 10.5, letterSpacing: '0.2em', opacity: .55, marginBottom: 6 }}>Date read</div>
-              <div className="serif" style={{ fontSize: 22 }}>{book.dateRead || '—'}</div>
+              <div className="caps" style={{ fontSize: 10.5, letterSpacing: '0.2em', opacity: .55, marginBottom: 6 }}>Year read</div>
+              <div className="serif" style={{ fontSize: 22 }}>{yearRead(book.dateRead) || '—'}</div>
               <div className="caps" style={{ fontSize: 10.5, letterSpacing: '0.2em', opacity: .55, marginTop: 18, marginBottom: 6 }}>Rating</div>
               <Stars value={book.rating || 0} size={18} />
               <div style={{ marginTop: 18 }}>
@@ -252,7 +252,7 @@ function HomePage({ openDetail, openEdit, openAdd }) {
               <Cover book={b} />
               <div className="ft">{b.title}</div>
               <div className="fa">{fullName(b)}</div>
-              <div className="fd">{b.dateRead || '—'}</div>
+              <div className="fd">{yearRead(b.dateRead) || '—'}</div>
             </div>
           )}
         </div>

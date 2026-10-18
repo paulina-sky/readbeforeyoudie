@@ -4,6 +4,15 @@ const { useState, useEffect, useMemo, useCallback, useRef, createContext, useCon
 const TAGS = ['Classics','Novel','Fantasy','Play','Psychology','Design','Comic Book','Poetry','Kids','Fiction','Non-fiction','Biography','Philosophy'];
 const LANGUAGES = ['Polish','English','French','German','Hebrew','Russian'];
 const LANG_SHORT = { Polish:'PL', English:'EN', French:'FR', German:'DE', Hebrew:'HE', Russian:'RU' };
+const FORMATS = [{ id:'owned', label:'Owned' }, { id:'audiobook', label:'Audiobook' }, { id:'kindle', label:'Kindle' }];
+
+// Books may carry a legacy `audiobook` flag but no `formats` array yet.
+function bookFormats(b) {
+  if (Array.isArray(b.formats)) return b.formats;
+  return b.audiobook ? ['audiobook'] : [];
+}
+// Older books may have a full date (YYYY-MM-DD) in dateRead; show only the year.
+function yearRead(v) { return v ? String(v).slice(0, 4) : ''; }
 
 const STORAGE_KEY = 'rbyd:v1';
 const SETTINGS_KEY = 'rbyd:settings';
@@ -195,14 +204,16 @@ function StoreProvider({ children }) {
     });
   }, []);
 
-  // Mark a book as read: move to read list, set dateRead, optionally rating/notes,
-  // and remove from Next Up queue since it's finished.
-  const markAsRead = useCallback((id, { rating = null, notes = '' } = {}) => {
-    const today = new Date().toISOString().slice(0, 10);
+  // Mark a book as read: move to read list, set year read, format, language,
+  // rating and notes, and remove from Next Up queue since it's finished.
+  const markAsRead = useCallback((id, { rating = null, notes = '', dateRead, language, formats } = {}) => {
+    const thisYear = String(new Date().getFullYear());
     setBooks(bs => bs.map(b => b.id === id
-      ? { ...b, list: 'read', dateRead: b.dateRead || today,
+      ? { ...b, list: 'read', dateRead: dateRead || b.dateRead || thisYear,
           rating: rating != null ? rating : b.rating,
           notes: notes ? notes : b.notes,
+          ...(language !== undefined ? { language } : {}),
+          ...(formats ? { formats, audiobook: formats.includes('audiobook') } : {}),
           toReadNext: false, nextOrder: 0 }
       : b));
   }, []);
@@ -360,7 +371,7 @@ async function openLibrarySearch(q) {
 
 // Expose globals
 Object.assign(window, {
-  TAGS, LANGUAGES, LANG_SHORT,
+  TAGS, LANGUAGES, LANG_SHORT, FORMATS, bookFormats, yearRead,
   Store, StoreProvider, useStore,
   Cover, Stars, Pill, NobelPill, AudioGlyph, CloseX,
   fullName, sortBySurname, bySurnameInitial, firstLetter,
